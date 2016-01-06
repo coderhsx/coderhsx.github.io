@@ -1,0 +1,353 @@
+@media (max-width: 750px) {
+  /*....home start.....*/
+  .navigation ul {
+    display: none;
+  }
+  .navigation ul li {
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .navigation .name {
+    font-size: 3em;
+  }
+  .navigation .btn-custom {
+    display: block;
+  }
+
+  /*....home end.....*/
+  /*....about start.....*/
+  #about h1 {
+    margin-bottom: 20px;
+  }
+
+  address {
+    padding: 0 !important;
+  }
+}
+@media (min-width: 750px) {
+  /*....home start.....*/
+  .navigation .btn-custom {
+    display: none !important;
+  }
+  .navigation ul {
+    display: block !important;
+  }
+  .navigation ul li {
+    margin-bottom: 20px;
+    display: block;
+  }
+  .navigation ul li:nth-child(1) {
+    width: 60%;
+  }
+  .navigation ul li:nth-child(2) {
+    width: 70%;
+  }
+  .navigation ul li:nth-child(3) {
+    width: 80%;
+  }
+  .navigation ul li:nth-child(4) {
+    width: 70%;
+  }
+  .navigation ul li:nth-child(5) {
+    width: 60%;
+  }
+
+  .photo img {
+    margin-top: 50px;
+  }
+
+  /*....home end.....*/
+  /*....about start.....*/
+  #about h1 {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 750px) and (max-width: 970px) {
+  /*....home start.....*/
+  .name {
+    font-size: 5em;
+  }
+}
+@media (min-width: 750px) {
+  /*....home end.....*/
+  /*....about start.....*/
+}
+@media (min-width: 970px) {
+  /*....home start.....*/
+  .name {
+    font-size: 7em;
+    margin: 50px 0;
+  }
+}
+/*....home start.....*/
+#home {
+  width: 100%;
+  background: #CED7DF;
+}
+#home .navigation {
+  position: relative;
+}
+#home .navigation .name {
+  display: inline-block;
+  width: 100%;
+  color: #666;
+  font-weight: 700;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+}
+#home .navigation .name:hover {
+  color: #333;
+}
+#home .navigation .btn-custom {
+  position: absolute;
+  top: 15px;
+  right: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #333;
+  background: #fff;
+  border: 2px solid #333;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#home .navigation .btn-custom:hover {
+  color: #fff;
+  background: #333;
+  border: 2px solid #fff;
+}
+#home .navigation li {
+  list-style-type: none;
+  text-align: center;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+}
+#home .navigation li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  color: #000;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#home .navigation li a:hover {
+  color: #fff;
+  background: #000;
+  text-decoration: none;
+}
+#home .navigation li a:link {
+  text-decoration: none;
+}
+#home .photo img {
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*....home end.....*/
+/*....about start.....*/
+#about {
+  width: 100%;
+  background: #76B852;
+}
+#about .about-warp {
+  padding: 50px 0;
+}
+#about small {
+  text-align: center;
+  color: #ddd;
+}
+#about p {
+  color: #fff;
+}
+#about h1 {
+  text-align: center;
+  font-weight: 700;
+}
+#about h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#skill {
+  width: 100%;
+  background: #fff;
+}
+#skill .col-sm-4:nth-child(2) .skill-percent {
+  height: 78%;
+}
+#skill .col-sm-4:nth-child(2) .skill-percent h1 {
+  padding-top: 16%;
+}
+#skill .col-sm-4:nth-child(3) .skill-percent {
+  height: 86%;
+}
+#skill .col-sm-4:nth-child(3) .skill-percent h1 {
+  padding-top: 19%;
+}
+#skill .col-sm-4:nth-child(4) .skill-percent {
+  height: 74%;
+}
+#skill .col-sm-4:nth-child(4) .skill-percent h1 {
+  padding-top: 14%;
+}
+#skill .col-sm-4:nth-child(5) .skill-percent {
+  height: 46%;
+}
+#skill .col-sm-4:nth-child(5) .skill-percent h1 {
+  padding-top: 6%;
+}
+#skill .col-sm-4:nth-child(6) .skill-percent {
+  height: 67%;
+}
+#skill .col-sm-4:nth-child(6) .skill-percent h1 {
+  padding-top: 12%;
+}
+#skill .col-sm-4:nth-child(7) .skill-percent {
+  height: 63%;
+}
+#skill .col-sm-4:nth-child(7) .skill-percent h1 {
+  padding-top: 11%;
+}
+#skill .skill-warp {
+  padding: 50px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#skill .skill-warp .skill-title h1 {
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#skill .skill-warp .skill-item {
+  padding: 20px 10px;
+  background: #fff;
+  margin: 10px 0;
+  box-shadow: 0 2px 6px #777;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#skill .skill-warp .skill-item:hover {
+  box-shadow: 0 8px 16px #777;
+}
+#skill .skill-warp .skill-item .skill-image {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+#skill .skill-warp .skill-item .skill-image img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+#skill .skill-warp .skill-item .skill-image .skill-percent {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background: rgba(66, 66, 66, 0.4);
+}
+#skill .skill-warp .skill-item .skill-name {
+  color: #000;
+  text-align: center;
+}
+
+#portfolio {
+  width: 100%;
+  background: #CED7DF;
+}
+#portfolio .portfolio-warp {
+  padding: 50px 0;
+}
+#portfolio .portfolio-warp .portfolio-title h1 {
+  font-weight: 700;
+  color: #444;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#portfolio .portfolio-warp .portfolio-item {
+  padding: 20px 10px;
+  background: #fff;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px #666;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#portfolio .portfolio-warp .portfolio-item:hover {
+  box-shadow: 0 8px 16px #666;
+}
+#portfolio .portfolio-warp .portfolio-item img {
+  width: 100%;
+}
+#portfolio .portfolio-warp .portfolio-item .portfolio-name {
+  color: #000;
+  text-align: center;
+}
+
+#contact {
+  width: 100%;
+  background: #CED7DF;
+}
+#contact .contact-warp {
+  padding: 50px 0;
+}
+#contact .contact-warp .contact-title h1 {
+  font-weight: 700;
+  color: #444;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#contact .contact-warp address {
+  padding: 0 50px;
+  overflow: hidden;
+}
+#contact .contact-warp address label {
+  font-size: 24px;
+  padding-left: 10px;
+  line-height: 40px;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  background: #323B43;
+  line-height: 50px;
+  text-align: center;
+  color: #eee;
+}
+footer .toTop {
+  position: fixed;
+  display: none;
+  bottom: 50px;
+  border: 0;
+  right: 15px;
+  width: 40px;
+  height: 50px;
+  background: #21B384;
+  font-size: 22px;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 0 2px 4px #333;
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,OAAO;EACH,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;EACd,UAAU,EAAC,OAAO;;AACrB,mBAAW;EACV,KAAK,EAAC,GAAG;;;AAGX,UAAU;EACN,KAAK,EAAC,IAAI",
+"sources": ["selfInfo.scss"],
+"names": [],
+"file": "selfInfo.css"
+}

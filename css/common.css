@@ -1,0 +1,19 @@
+body,div,header,footer,ul,li,h1,h2,p{
+  margin: 0;
+  padding:0;
+}
+body{
+  font-family: "Microsoft YaHei" !important;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+li{
+ list-style-type:none;
+}
+.clearfix{*zoom:1;}
